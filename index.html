@@ -1,11 +1,3 @@
-<!---
-Question : 
-https://openclassrooms.com/forum/sujet/video-en-autoplay
--->
-
-
-
-
 <figure>
   <video controls muted autoplay preload="auto" id="idvideo2" >
     <source type="video/mp4" src="job.mp4"></source>
@@ -18,25 +10,8 @@ Votre navigateur ne supporte pas la balise HTML5 video.
 <h2>Sans attribut autoplay sur la balise HTML video</h2>
 <p>Dans ces tests nous essayons de passer par le javascript, pour voir si cela change quelque chose, malheureusement ...</p>
 <p>Dans ces tests l'attribut <strong>autoplay</strong> n'ai pas ajouté la balise HTML video, mais déclenché via le Javascript au chargement de la page.</p>
-<figure>
-  <video controls preload="auto" id="idvideoA" >
-    <source type="video/mp4" src="https://outils-javascript.aliasdmc.fr/img/videos/mov_bbb.mp4"></source>
-  <source type="video/ogg" src="https://outils-javascript.aliasdmc.fr/img/videos/mov_bbb.ogv"></source>
-<source type="video/webm" src="https://outils-javascript.aliasdmc.fr/img/videos/mov_bbb.webm"></source>
-Votre navigateur ne supporte pas la balise HTML5 video.<span id="detectidvideoA"></span>
-</video>
-<figcaption>Sans l'attribut <strong>muted</strong> sur la balise HTML video<br>Test avec action internaute :<br><button type="button" onclick="fctAutoplay('idvideoA')">autoplay</button><br>l'action ne déclenche pas pour autant la lecture de la vidéo.<br>
-  <button type="button" onclick="fctPlay('idvideoA')">play()</button> doit jouer la vidéo</figcaption>
-</figure> 
-<figure>
-  <video controls muted preload="auto" id="idvideoA2" >
-    <source type="video/mp4" src="https://outils-javascript.aliasdmc.fr/img/videos/mov_bbb.mp4"></source>
-  <source type="video/ogg" src="https://outils-javascript.aliasdmc.fr/img/videos/mov_bbb.ogv"></source>
-<source type="video/webm" src="https://outils-javascript.aliasdmc.fr/img/videos/mov_bbb.webm"></source>
-Votre navigateur ne supporte pas la balise HTML5 video.<span id="detectidvideoA2"></span>
-</video>
-<figcaption>Avec l'attribut <strong>muted</strong> sur la balise HTML video</figcaption>
-</figure> 
+
+
 <p>Dans ces tests, c'est la fonction javascript <strong>play()</strong> qui déclenchée via le Javascript au chargement de la page.</p>
 <figure>
   <video controls preload="auto" id="idvideoB" >
